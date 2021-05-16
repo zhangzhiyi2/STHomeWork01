@@ -9,6 +9,7 @@ public class Student {
     public Student() {
         super();
     }
+    
     public String getStuBirthday() {
         return stubirthday;
     }
@@ -16,16 +17,13 @@ public class Student {
         this.stubirthday = stubirthday;
     }
     
-    
     public String getGender() {
         if(gender) return "ÄĞ";
          return "Å®";
-        
     }
     public boolean setGender(boolean gender) {
         return gender;
     }
-    
     
     public int getStuNum() {
         return stuNum;
@@ -41,4 +39,4 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }   
-}
+}// 6
